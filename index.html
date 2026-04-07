@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechShop - Магазин гаджетів</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body> <header>
+<body>
+    <header class="header">
         <h1>TechShop</h1>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="index.html">Головна</a></li>
                 <li><a href="#">Товари</a></li>
                 <li><a href="about.html">Про нас</a></li>
@@ -17,29 +19,31 @@
         </nav>
     </header>
 
-    <main>
-        <section>
+    <main class="container">
+        <section class="hero">
             <h2>Новинки 2025</h2>
-            <a href="#">Дивитися каталог</a>
+            <a href="#" class="btn">Дивитися каталог</a>
         </section>
 
         <section>
             <h2>Популярні товари</h2>
-            <article>
-                <img src="https://via.placeholder.com/150" alt="Смартфон останнього покоління">
+            <article class="card">
+                <span class="badge">TOP</span>
+    
+                <img src="images/iphone-17-pro-max-256gb-orange.jpg">
                 <h3>iPhone 17 Pro Max</h3>
-                <p>Найкращий екран та потужний процесор.</p>
-                <span>Ціна: 80 000 грн</span>
-                <button type="button">Купити</button>
+                <p>Смартфон Apple iPhone 17 Pro Max 256Gb Cosmic Orange</p>
+                <span class="price">Ціна: 69 999 грн</span>
+                <button type="button" class="btn">Купити</button>
             </article>
             </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>&copy; 2025 TechShop. Всі права захищені.</p>
-        <form>
+        <form class="form">
             <label for="email">Підпишіться на знижки:</label>
-            <input type="email" id="email" placeholder="vash@email.com">
+            <input type="email" id="email" placeholder="123123@email.com">
             <button type="submit">Підписатися</button>
         </form>
     </footer>
