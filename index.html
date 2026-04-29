@@ -8,8 +8,9 @@
 </head>
 <body>
     <header class="header">
-        <h1>TechShop</h1>
-        <nav>
+        <div class="logo">TechShop</div>
+
+        <nav class="main-nav">
             <ul class="menu">
                 <li><a href="index.html">Головна</a></li>
                 <li><a href="#">Товари</a></li>
@@ -17,6 +18,9 @@
                 <li><a href="contacts.html">Контакти</a></li>
             </ul>
         </nav>
+        <div class="user-actions">
+            <button class="btn-cart">Кошик (0)</button>
+        </div>
     </header>
 
     <main class="container">
@@ -25,17 +29,19 @@
             <a href="#" class="btn">Дивитися каталог</a>
         </section>
 
-        <section>
+        <section class="catalog">
             <h2>Популярні товари</h2>
-            <article class="card">
-                <span class="badge">TOP</span>
-    
-                <img src="assets/images/iphone-17.png">
-                <h3>iPhone 17 Pro Max</h3>
-                <p>Смартфон Apple iPhone 17 Pro Max 256Gb Cosmic Orange</p>
-                <span class="price">Ціна: 69 999 грн</span>
-                <button type="button" class="btn">Купити</button>
-            </article>
+
+            <div class="products-grid">
+                <article class="product-card">
+                    <span class="badge">TOP</span>
+                    <img src="assets/images/iphone-17.png" alt="Product Name" class="product-img">
+                    <h3 class="product-title">iPhone 17 Pro Max</h3>
+                    <p class="product-desc">Смартфон Apple iPhone 17 Pro Max 256Gb Cosmic Orange</p>
+                    <span class="product-price">Ціна: 69 999 грн</span>
+                    <button class="btn-buy">Купити</button>
+                </article>
+            </div>
             </section>
     </main>
 
