@@ -32,3 +32,71 @@
   .form-group input:valid {
     border-color: green;
   }
+  .back-link {
+    display: inline-flex;
+    margin: 1rem 0 0 1rem;
+    color: #000;
+    text-decoration: none;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  
+  .back-link:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+
+  .checkout-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90px;
+  }
+  
+  .checkout-header .logo {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .cart-link {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .checkout-main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .checkout-title-row {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .checkout-title-row h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .back-link {
+    position: absolute;
+    left: 0;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .back-link:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
